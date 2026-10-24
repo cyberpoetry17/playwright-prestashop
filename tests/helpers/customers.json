@@ -1,0 +1,105 @@
+{
+  "validCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.customer@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "invalidEmailCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "janedoe@",
+    "password": "QaTest!2026Secure"
+  },
+
+  "whitespaceNameCustomer": {
+    "firstName": "   ",
+    "lastName": "Doe",
+    "email": "jane.doe.whitespace@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "nameWithNumbersCustomer": {
+    "firstName": "Jane123",
+    "lastName": "Doe",
+    "email": "jane.doe.numbers@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "invalidCharactersCustomer": {
+    "firstName": "Jane@",
+    "lastName": "Doe",
+    "email": "jane.doe.invalidchars@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "shortPasswordCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.shortpassword@example.com",
+    "password": "Ab1!xyz"
+  },
+
+  "weakPasswordCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.weakpassword@example.com",
+    "password": "12345678"
+  },
+
+  "consentCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.consent@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "duplicateCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "duplicate.customer@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "missingFirstNameCustomer": {
+    "firstName": "",
+    "lastName": "Doe",
+    "email": "jane.doe.missingfirstname@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "missingLastNameCustomer": {
+    "firstName": "Jane",
+    "lastName": "",
+    "email": "jane.doe.missinglastname@example.com",
+    "password": "QaTest!2026Secure"
+  },
+
+  "missingEmailCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "",
+    "password": "QaTest!2026Secure"
+  },
+
+  "missingPasswordCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.missingpassword@example.com",
+    "password": ""
+  },
+
+  "privacyConsentCustomer": {
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe.privacy@example.com",
+    "password": "QaTest!2026Secure"
+  },
+  "footerRegistrationCustomer": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith.footer@example.com",
+    "password": "QaTest!2026Secure"
+  }
+}
