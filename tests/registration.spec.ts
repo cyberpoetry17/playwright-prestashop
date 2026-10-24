@@ -279,6 +279,14 @@ test.describe("Customer registration", () => {
 
         await expect(form).toBeVisible();
 
+        const duplicateEmailAlert = shop.getByRole("alert");
+
+        await expect(duplicateEmailAlert).toBeVisible();
+
+        await expect(duplicateEmailAlert).toContainText(
+          "The email is already used, please choose another one or sign in",
+        );
+
         await expect(
           shop.getByRole("link", {
             name: /sign out/i,
