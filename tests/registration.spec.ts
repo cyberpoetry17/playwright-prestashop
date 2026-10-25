@@ -52,7 +52,7 @@ test.describe("Customer registration", () => {
 
         const registrationResponse = await registrationResponsePromise;
 
-        expect(registrationResponse.status()).toBeLessThan(400);
+        expect(registrationResponse.status()).toBe(302);
 
         const submittedData = registrationResponse
           .request()
